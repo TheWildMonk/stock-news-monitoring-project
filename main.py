@@ -6,8 +6,7 @@ from twilio.rest import Client
 
 
 # Load .env file
-load_dotenv("/Volumes/Workstation/Learning Center/Data Science"
-            "/100 Days of Code - Complete Python Pro Bootcamp 2021/Projects/@CREDENTIALS/.env")
+load_dotenv(".env_FILE_PATH/.env")
 
 # Constants
 STOCK = "TSLA"
@@ -36,8 +35,8 @@ NEWS_API_PARAMS = {
 # Twilio API Constants
 TWILIO_SID = os.getenv("TWILIO_SID")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
-TWILIO_PHONE_NO = "+18503184267"
-RECEIVER = "+8801701340839"
+TWILIO_PHONE_NO = "+123456789"
+RECEIVER = "+1234567890"
 
 # Request to Alpha Vantage API and
 # retrieve closing stock price of yesterday and day before yesterday.
